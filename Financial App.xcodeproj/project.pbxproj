@@ -14,6 +14,15 @@
 		90253F282193090500772412 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 90253F262193090500772412 /* LaunchScreen.storyboard */; };
 		90253F332193090500772412 /* Financial_AppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90253F322193090500772412 /* Financial_AppTests.swift */; };
 		90253F3E2193090500772412 /* Financial_AppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90253F3D2193090500772412 /* Financial_AppUITests.swift */; };
+		90253F4D21930D9C00772412 /* UIView+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90253F4C21930D9C00772412 /* UIView+Extension.swift */; };
+		90253F502193103900772412 /* UpperTransparentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90253F4F2193103900772412 /* UpperTransparentView.swift */; };
+		90253F522193190A00772412 /* UIColor+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90253F512193190A00772412 /* UIColor+Extension.swift */; };
+		902D64A7219454F200CDCF50 /* WeekDayCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 902D64A6219454F200CDCF50 /* WeekDayCollectionViewCell.swift */; };
+		902D64AA2194562900CDCF50 /* DateWiseData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 902D64A92194562900CDCF50 /* DateWiseData.swift */; };
+		902D64AC2194735100CDCF50 /* SpendData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 902D64AB2194735100CDCF50 /* SpendData.swift */; };
+		902D64AE2194766C00CDCF50 /* ExpenceDetailsTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 902D64AD2194766C00CDCF50 /* ExpenceDetailsTableViewCell.swift */; };
+		90FC1A3C21941EEB0043CED2 /* CircleProgressView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90FC1A3B21941EEB0043CED2 /* CircleProgressView.swift */; };
+		90FC1A3E219428E40043CED2 /* FinanceStatusViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90FC1A3D219428E40043CED2 /* FinanceStatusViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +56,15 @@
 		90253F392193090500772412 /* Financial AppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Financial AppUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		90253F3D2193090500772412 /* Financial_AppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Financial_AppUITests.swift; sourceTree = "<group>"; };
 		90253F3F2193090500772412 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		90253F4C21930D9C00772412 /* UIView+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIView+Extension.swift"; sourceTree = "<group>"; };
+		90253F4F2193103900772412 /* UpperTransparentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UpperTransparentView.swift; sourceTree = "<group>"; };
+		90253F512193190A00772412 /* UIColor+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIColor+Extension.swift"; sourceTree = "<group>"; };
+		902D64A6219454F200CDCF50 /* WeekDayCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeekDayCollectionViewCell.swift; sourceTree = "<group>"; };
+		902D64A92194562900CDCF50 /* DateWiseData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DateWiseData.swift; sourceTree = "<group>"; };
+		902D64AB2194735100CDCF50 /* SpendData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpendData.swift; sourceTree = "<group>"; };
+		902D64AD2194766C00CDCF50 /* ExpenceDetailsTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExpenceDetailsTableViewCell.swift; sourceTree = "<group>"; };
+		90FC1A3B21941EEB0043CED2 /* CircleProgressView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircleProgressView.swift; sourceTree = "<group>"; };
+		90FC1A3D219428E40043CED2 /* FinanceStatusViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FinanceStatusViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,8 +115,12 @@
 		90253F1C2193090100772412 /* Financial App */ = {
 			isa = PBXGroup;
 			children = (
+				902D64A82194561600CDCF50 /* Model */,
+				902D64A4219454B800CDCF50 /* View Controllers */,
+				90FC1A3A21941EC50043CED2 /* Circle Progresss View */,
+				90253F4E21930FFD00772412 /* BeziarView */,
+				90253F4B21930D8500772412 /* Extension */,
 				90253F1D2193090100772412 /* AppDelegate.swift */,
-				90253F1F2193090100772412 /* ViewController.swift */,
 				90253F212193090100772412 /* Main.storyboard */,
 				90253F242193090500772412 /* Assets.xcassets */,
 				90253F262193090500772412 /* LaunchScreen.storyboard */,
@@ -123,6 +145,59 @@
 				90253F3F2193090500772412 /* Info.plist */,
 			);
 			path = "Financial AppUITests";
+			sourceTree = "<group>";
+		};
+		90253F4B21930D8500772412 /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+				90253F4C21930D9C00772412 /* UIView+Extension.swift */,
+				90253F512193190A00772412 /* UIColor+Extension.swift */,
+			);
+			path = Extension;
+			sourceTree = "<group>";
+		};
+		90253F4E21930FFD00772412 /* BeziarView */ = {
+			isa = PBXGroup;
+			children = (
+				90253F4F2193103900772412 /* UpperTransparentView.swift */,
+			);
+			path = BeziarView;
+			sourceTree = "<group>";
+		};
+		902D64A4219454B800CDCF50 /* View Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				902D64A5219454D500CDCF50 /* Custom Cell */,
+				90253F1F2193090100772412 /* ViewController.swift */,
+				90FC1A3D219428E40043CED2 /* FinanceStatusViewController.swift */,
+			);
+			path = "View Controllers";
+			sourceTree = "<group>";
+		};
+		902D64A5219454D500CDCF50 /* Custom Cell */ = {
+			isa = PBXGroup;
+			children = (
+				902D64A6219454F200CDCF50 /* WeekDayCollectionViewCell.swift */,
+				902D64AD2194766C00CDCF50 /* ExpenceDetailsTableViewCell.swift */,
+			);
+			path = "Custom Cell";
+			sourceTree = "<group>";
+		};
+		902D64A82194561600CDCF50 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				902D64A92194562900CDCF50 /* DateWiseData.swift */,
+				902D64AB2194735100CDCF50 /* SpendData.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		90FC1A3A21941EC50043CED2 /* Circle Progresss View */ = {
+			isa = PBXGroup;
+			children = (
+				90FC1A3B21941EEB0043CED2 /* CircleProgressView.swift */,
+			);
+			path = "Circle Progresss View";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -256,8 +331,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				90253F4D21930D9C00772412 /* UIView+Extension.swift in Sources */,
+				90253F502193103900772412 /* UpperTransparentView.swift in Sources */,
+				90FC1A3E219428E40043CED2 /* FinanceStatusViewController.swift in Sources */,
+				902D64AE2194766C00CDCF50 /* ExpenceDetailsTableViewCell.swift in Sources */,
+				902D64A7219454F200CDCF50 /* WeekDayCollectionViewCell.swift in Sources */,
 				90253F202193090100772412 /* ViewController.swift in Sources */,
 				90253F1E2193090100772412 /* AppDelegate.swift in Sources */,
+				90253F522193190A00772412 /* UIColor+Extension.swift in Sources */,
+				90FC1A3C21941EEB0043CED2 /* CircleProgressView.swift in Sources */,
+				902D64AC2194735100CDCF50 /* SpendData.swift in Sources */,
+				902D64AA2194562900CDCF50 /* DateWiseData.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
